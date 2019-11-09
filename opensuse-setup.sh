@@ -86,6 +86,7 @@ usage() {
   echo '  -4, --extra    Install additional applications.'
   echo '  -5, --fonts    Install Microsoft and Apple fonts.'
   echo '  -6, --menus    Configure custom menu entries.'
+  echo '  -7, --kderc    Install custom KDE profile.'
   echo '  -h, --help     Show this message.'
 
 }
@@ -274,6 +275,24 @@ then
   exit 1
 fi
 
+install_profile() {
+  echo "Installing custom KDE profile."
+  echo "Removing existing profile."
+  rm -rf /etc/skel/.config
+  mkdir /etc/skel/.config
+  echo "Defining global options."
+  cat ${CWD}/${VERSION}/kde/kdeglobals > /etc/skel/.config/kdeglobals
+  echo "Defining default menu size."
+  cat ${CWD}/${VERSION}/kde/dolphinrc > /etc/skel/.config/dolphinrc
+  echo "Configuring desktop effects."
+  cat ${CWD}/${VERSION}/kde/kwinrc > /etc/skel/.config/kwinrc
+  echo "Configuring screen lock."
+  cat ${CWD}/${VERSION}/kde/kscreenlockerrc > /etc/skel/.config/kscreenlockerrc
+  echo "Configuring file indexing."
+  cat ${CWD}/${VERSION}/kde/baloofilerc > /etc/skel/.config/baloofilerc
+  echo "Custom KDE profile installed."
+}
+
 # Check parameters.
 if [[ "${#}" -ne 1 ]]
 then
@@ -299,6 +318,9 @@ case "${OPTION}" in
     ;;
   -6|--menus) 
     replace_menus
+    ;;
+  -7|--kderc) 
+    install_profile
     ;;
   -h|--help) 
     usage
