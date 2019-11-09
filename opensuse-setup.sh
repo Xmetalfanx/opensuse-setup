@@ -4,6 +4,9 @@
 #
 # (c) Niki Kovacs 2019 <info@microlinux.fr>
 
+# Operating system
+OS=$(hostnamectl | grep "Operating System")
+
 # OpenSUSE Leap version
 VERSION="15.1"
 
@@ -87,8 +90,9 @@ usage() {
   echo '  -5, --fonts    Install Microsoft and Apple fonts.'
   echo '  -6, --menus    Configure custom menu entries.'
   echo '  -7, --kderc    Install custom KDE profile.'
+  echo '  -8, --users    Apply custom KDE profile for existing users.'
+  echo '  -9, --magic    Perform all of the above in one go.'
   echo '  -h, --help     Show this message.'
-
 }
 
 configure_shell() {
@@ -293,6 +297,41 @@ install_profile() {
   echo "Custom KDE profile installed."
 }
 
+restore_profile() {
+  if [ ! -d /etc/skel/.config ]
+  then
+    echo "Custom profiles are not installed." >&2
+    exit 1
+  fi
+  if [[ "${OS}" =~ "CentOS" ]]; then
+    SYSTEM="CentOS"
+    echo "Linux distribution: ${SYSTEM}"
+  elif [[ "${OS}" =~ "openSUSE" ]]; then
+    SYSTEM="openSUSE"
+    echo "Linux distribution: ${SYSTEM}"
+  else
+    echo "Unsupported Linux distribution." >&2
+    exit 1
+  fi
+  for USER in ${USERS}
+  do
+    echo "Updating profile for user: ${USER}"
+    rm -rf /home/${USER}/.cache
+    rm -rf /home/${USER}/.config
+    rm -rf /home/${USER}/.gnome2
+    rm -rf /home/${USER}/.kde
+    rm -rf /home/${USER}/.local
+    rm -rf /home/${USER}/.nv
+    cp -R /etc/skel/.config /home/${USER}/
+    if [ "${SYSTEM}" == "CentOS" ]
+    then 
+      chown -R ${USER}:${USER} /home/${USER}/.config
+    else
+      chown -R ${USER}:users /home/${USER}/.config
+    fi
+  done
+}
+
 # Check parameters.
 if [[ "${#}" -ne 1 ]]
 then
@@ -321,6 +360,19 @@ case "${OPTION}" in
     ;;
   -7|--kderc) 
     install_profile
+    ;;
+  -8|--users) 
+    restore_profile
+    ;;
+  -9|--magic) 
+    configure_shell
+    configure_repos
+    remove_cruft
+    install_extras
+    install_fonts
+    replace_menus
+    install_profile
+    restore_profile
     ;;
   -h|--help) 
     usage
