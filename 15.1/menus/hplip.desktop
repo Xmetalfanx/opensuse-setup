@@ -1,0 +1,14 @@
+[Desktop Entry]
+GenericName=HP Printer Management
+GenericName[de]=HP Druckerverwaltung
+GenericName[fr]=Gestion des imprimantes HP
+Name=HP Toolbox
+Encoding=UTF-8
+Type=Application
+Exec=hp-toolbox
+Icon=/usr/share/hplip/data/images/128x128/hp_logo.png
+Terminal=false
+Categories=System;HardwareSettings;
+X-KDE-StartupNotify=false
+StartupNotify=true
+

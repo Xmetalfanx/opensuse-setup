@@ -1,0 +1,13 @@
+[Desktop Entry]
+GenericName=Photo Management
+GenericName[de]=Fotoverwaltung
+GenericName[fr]=Gestion de photos
+Name=digiKam
+Type=Application
+Categories=Qt;KDE;Graphics;Photography;
+Exec=digikam -qwindowtitle %c
+Icon=digikam
+X-DocPath=digikam/index.html
+MimeType=x-content/image-dcf;x-content/image-picturecd;
+Terminal=false
+

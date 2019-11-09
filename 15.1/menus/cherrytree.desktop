@@ -1,0 +1,12 @@
+[Desktop Entry]
+GenericName=Hierarchical Notes
+GenericName[de]=Hierarchische Notizen
+GenericName[fr]=Notes hiérarchisées
+Name=CherryTree
+Exec=cherrytree %f
+Icon=cherrytree
+MimeType=application/cherrytree-ctd;application/cherrytree-ctz;application/cherrytree-ctb;application/cherrytree-ctx;
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=GNOME;GTK;Utility;TextEditor;

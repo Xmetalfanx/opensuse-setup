@@ -1,0 +1,18 @@
+[Desktop Entry]
+GenericName=CD/DVD Burner
+GenericName[de]=Brennprogramm
+GenericName[fr]=Gravure de CD/DVD
+Name=K3B
+Type=Application
+Exec=k3b %U
+Icon=k3b
+X-DocPath=k3b/index.html
+Terminal=false
+MimeType=application/x-k3b;application/x-iso;application/x-cd-image;application/x-cue;x-content/blank-cd;x-content/blank-dvd;x-content/blank-bd;x-content/blank-hddvd;
+X-KDE-StartupNotify=true
+X-KDE-NativeMimeType=application/x-k3b;
+Categories=Qt;KDE;Utility;
+X-DBUS-ServiceType=Unique
+InitialPreference=5
+X-DBUS-ServiceName=org.kde.k3b
+

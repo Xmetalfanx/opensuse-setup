@@ -1,0 +1,16 @@
+[Desktop Entry]
+GenericName=Network Folder
+GenericName[de]=Netzwerkordner
+GenericName[fr]=Dossier réseau
+Name=KNetAttach
+Exec=knetattach
+InitialPreference=6
+Icon=knetattach
+Type=Application
+Terminal=false
+X-KDE-StartupNotify=true
+Categories=Network;
+X-DocPath=knetattach/index.html
+OnlyShowIn=KDE;
+
+

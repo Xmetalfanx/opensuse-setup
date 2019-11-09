@@ -1,0 +1,13 @@
+[Desktop Entry]
+GenericName=CAD System
+GenericName[de]=CAD-Programm
+GenericName[fr]=Logiciel de DAO
+Name=LibreCAD
+Version=1.0
+Type=Application
+TryExec=librecad
+Exec=librecad %F
+Icon=librecad
+Categories=Graphics;2DGraphics;VectorGraphics;
+MimeType=image/vnd.dxf;
+

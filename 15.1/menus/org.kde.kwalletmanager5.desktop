@@ -1,0 +1,15 @@
+[Desktop Entry]
+Name=KWalletManager
+GenericName=Password Management
+GenericName[de]=Passwortverwaltung
+GenericName[fr]=Gestion du trousseau
+Exec=kwalletmanager5 %u
+MimeType=application/x-kwallet;
+InitialPreference=6
+Icon=kwalletmanager
+Type=Application
+Terminal=false
+StartupNotify=false
+Categories=Qt;KDE;System;Security;
+X-DocPath=kwallet5/index.html
+X-DBUS-ServiceName=org.kde.kwalletmanager5

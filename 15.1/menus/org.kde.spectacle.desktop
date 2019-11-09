@@ -1,0 +1,15 @@
+[Desktop Entry]
+GenericName=Screenshot
+GenericName[de]=Bildschirmfoto
+GenericName[fr]=Capture d'écran
+Name=Spectacle
+Categories=Utility;
+Exec=spectacle
+Icon=spectacle
+Type=Application
+Terminal=false
+StartupNotify=false
+Actions=FullScreenScreenShot;CurrentMonitorScreenShot;ActiveWindowScreenShot;RectangularRegionScreenShot;
+X-DBUS-StartupType=Multi
+X-DBUS-ServiceName=org.kde.Spectacle
+

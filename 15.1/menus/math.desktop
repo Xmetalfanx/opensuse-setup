@@ -1,0 +1,21 @@
+[Desktop Entry]
+GenericName=Formula Editor
+GenericName[de]=Formeleditor
+GenericName[fr]=Éditeur de formules
+Name=LibreOffice Math
+StartupNotify=true
+Version=1.0
+Terminal=false
+#NoDisplay=true
+Icon=libreoffice-math
+Type=Application
+Categories=Office;Spreadsheet;X-Red-Hat-Base;
+Exec=libreoffice --math %U
+MimeType=application/vnd.oasis.opendocument.formula;application/vnd.sun.xml.math;application/vnd.oasis.opendocument.formula-template;text/mathml;application/mathml+xml;
+StartupNotify=true
+X-GIO-NoFuse=true
+Keywords=Equation;OpenDocument Formula;Formula;odf;MathML;
+InitialPreference=5
+StartupWMClass=libreoffice-math
+X-KDE-Protocols=file,http,ftp,webdav,webdavs
+

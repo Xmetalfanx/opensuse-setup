@@ -1,0 +1,12 @@
+[Desktop Entry]
+GenericName=Color Chooser
+GenericName[de]=Farbauswahl
+GenericName[fr]=Sélecteur de couleurs
+Type=Application
+Exec=kcolorchooser
+Icon=kcolorchooser
+Terminal=false
+X-DocPath=fundamentals/index.html#colors
+Name=KColorChooser
+Categories=Graphics;
+

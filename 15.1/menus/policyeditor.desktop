@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=IcedTea-Web Policy Editor
+GenericName=Policy Tool 
+Comment=Edit Java Applet policy and permission settings
+Exec=/usr/bin/policyeditor.itweb
+Icon=javaws
+Terminal=false
+Type=Application
+Categories=Settings;DesktopSettings;X-GNOME-DesktopSettings;X-GNOME-Sundry;
+Keywords=IcedTea;IcedTea-Web;java;javaws;web;start;webstart;jnlp;
+X-Desktop-File-Install-Version=0.23
+NoDisplay=true

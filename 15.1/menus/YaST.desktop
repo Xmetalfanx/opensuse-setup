@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Categories=System;
+Name=YaST
+Icon=yast
+GenericName=Administrator Settings
+Exec=/usr/bin/xdg-su -c /sbin/yast2
+Encoding=UTF-8
+Comment=Manage system-wide settings
+

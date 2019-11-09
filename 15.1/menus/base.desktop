@@ -1,0 +1,19 @@
+[Desktop Entry]
+GenericName=Database
+GenericName[de]=Datenbanken
+GenericName[fr]=Bases de données
+Name=LibreOffice Base
+StartupNotify=true
+Version=1.0
+Terminal=false
+Icon=libreoffice-base
+Type=Application
+Categories=Office;Database;X-Red-Hat-Base;
+Exec=libreoffice --base %U
+MimeType=application/vnd.oasis.opendocument.database;application/vnd.sun.xml.base;
+StartupNotify=true
+X-GIO-NoFuse=true
+Keywords=Data;SQL;
+InitialPreference=5
+StartupWMClass=libreoffice-base
+X-KDE-Protocols=file,http,ftp,webdav,webdavs

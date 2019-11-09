@@ -1,0 +1,11 @@
+[Desktop Entry]
+GenericName=File search
+GenericName[de]=Dateisuche
+GenericName[fr]=Recherche de fichiers
+Name=Recoll
+Categories=Utility;Filesystem;Database;
+Exec=recoll
+Icon=recoll
+Terminal=false
+Type=Application
+Keywords=Search;Full Text;

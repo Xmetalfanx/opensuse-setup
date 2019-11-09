@@ -1,0 +1,12 @@
+[Desktop Entry]
+GenericName=Video Editor
+GenericName[de]=Video-Bearbeitungs-Software
+GenericName[fr]=Éditeur vidéo
+Name=Openshot
+Exec=openshot-qt %F
+Terminal=false
+Type=Application
+Icon=openshot-qt
+Categories=AudioVideo;AudioVideoEditing;
+MimeType=application/vnd.openshot-qt-project;
+X-AppInstall-Package=openshot-qt

@@ -1,0 +1,12 @@
+[Desktop Entry]
+GenericName=Scanner Tool
+GenericName[de]=Scannersoftware
+GenericName[fr]=Acquisition d'images
+Name=Skanlite
+Type=Application
+Exec=skanlite -qwindowtitle %c %i
+Icon=scanner
+X-DocPath=skanlite/index.html
+Terminal=false
+Categories=Qt;KDE;Graphics;Scanning;
+X-DBUS-ServiceName=org.kde.skanlite

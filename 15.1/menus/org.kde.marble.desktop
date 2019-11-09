@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+TryExec=marble
+Exec=marble %F
+GenericName=Virtual Globe
+GenericName[de]=Virtueller Globus
+GenericName[fr]=Globe virtuel
+Name=KDE Marble
+Icon=marble
+Terminal=false
+Categories=Network;
+X-DocPath=marble/index.html

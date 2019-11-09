@@ -1,0 +1,14 @@
+[Desktop Entry]
+Exec=systemsettings5
+Icon=preferences-system
+Type=Application
+X-DocPath=systemsettings/index.html
+X-KDE-StartupNotify=true
+OnlyShowIn=KDE;
+GenericName=User Settings
+GenericName[de]=Benutzereinstellungen
+GenericName[fr]=Paramètres de l'utilisateur
+Name=KDE System Settings
+X-DBUS-StartupType=Unique
+X-DBUS-ServiceName=org.kde.systemsettings
+Categories=System;

@@ -1,0 +1,25 @@
+[Desktop Entry]
+GenericName=Desktop Publishing
+GenericName[de]=Desktop-Publishing
+GenericName[fr]=Logiciel de PAO
+Name=Scribus
+Type=Application
+Icon=scribus
+TryExec=scribus
+Exec=scribus %f
+Terminal=false
+#MimeType=application/vnd.scribus;
+Categories=Qt;Office;WordProcessor;
+StartupWMClass=scribus
+StartupNotify=false
+X-AppInstall-Package=scribus
+X-AppInstall-Section=main
+X-KDE-SubstituteUID=false
+X-KDE-Username=
+X-Desktop-File-Install-Version=0.22
+
+[X-Property::X-KDE-NativeExtension]
+Type=QString
+Value=.sla
+DocPath=scribus
+

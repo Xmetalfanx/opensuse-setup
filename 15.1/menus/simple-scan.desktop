@@ -1,0 +1,12 @@
+[Desktop Entry]
+GenericName=Scanner Tool
+GenericName[de]=Scannersoftware
+GenericName[fr]=Acquisition d'images
+Name=Simple Scan
+Exec=simple-scan
+Icon=scanner
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Graphics;
+

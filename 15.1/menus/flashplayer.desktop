@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Name=FlashPlayer
+GenericName=Flash Standalone Player
+Comment=Flash Standalone Player
+Icon=flashplayer
+Exec=flashplayer
+Terminal=false
+Categories=GTK;Application;AudioVideo;Video;Player;
+MimeType=application/x-shockwave-flash;
+NoDisplay=true
+

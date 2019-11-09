@@ -1,0 +1,14 @@
+[Desktop Entry]
+GenericName=Instant Messenger
+GenericName[de]=Sofortnachrichtendienst
+GenericName[fr]=Messagerie instantanée
+Name=Pidgin
+Comment=Chat over IM.  Supports AIM, Google Talk, Jabber/XMPP, and more
+Exec=pidgin
+Icon=pidgin
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=Network;InstantMessaging;
+
+

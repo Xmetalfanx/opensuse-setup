@@ -1,0 +1,102 @@
+# Extra packages
+
+# Basic tools
+antiword
+elinks
+exiftool
+iperf
+lftp
+links
+lynx
+man-pages
+man-pages-fr
+man-pages-fr-extra
+mlocate
+ncftp
+net-tools-deprecated
+nmap
+pinfo
+recode
+rtorrent
+speedtest-cli
+tree
+unrar
+unrtf
+vim
+whois
+
+# Dependencies
+python2-dbus-python
+python3-requests
+wxWidgets-lang
+
+# KDE
+fontforge
+gos-wallpapers
+plasma5-workspace-wallpapers
+
+# Internet
+enigmail
+filezilla
+filezilla-lang
+flash-player
+MozillaThunderbird
+MozillaThunderbird-translations-common
+owncloud-client
+owncloud-client-dolphin
+pidgin
+pidgin-plugin-otr
+pidgin-plugin-otr-lang
+transmission-gtk
+transmission-gtk-lang
+
+# Office
+scribus
+
+# Graphics
+digikam
+digikam-lang
+digikam-plugins
+evince
+gimp-lang
+inkscape
+inkscape-extensions-gimp
+inkscape-lang
+librecad
+librecad-parts
+simple-scan
+simple-scan-lang
+
+# Audio & video
+asunder
+asunder-lang
+audacious
+audacious-lang
+audacious-plugins
+audacious-plugins-lang
+audacity
+audacity-lang
+cheese
+cheese-lang
+handbrake-gtk
+handbrake-gtk-lang
+libdvdcss2
+MPlayer
+normalize
+openshot-qt
+transcode
+vlc
+vlc-codecs
+vlc-lang
+winff
+winff-lang
+
+# Utilities
+cherrytree
+cherrytree-lang
+recoll
+
+# Games
+aisleriot
+aisleriot-lang
+aisleriot-themes

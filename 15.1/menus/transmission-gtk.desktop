@@ -1,0 +1,17 @@
+[Desktop Entry]
+GenericName=BitTorrent Client
+GenericName[de]=BitTorrent-Programm
+GenericName[fr]=Téléchargement BitTorrent
+Name=Transmission
+Exec=transmission-gtk %U
+Icon=transmission
+Terminal=false
+TryExec=transmission-gtk
+Type=Application
+StartupNotify=true
+MimeType=application/x-bittorrent;x-scheme-handler/magnet;
+Categories=Network;FileTransfer;P2P;GTK;
+X-Ubuntu-Gettext-Domain=transmission
+X-AppInstall-Keywords=torrent
+Actions=Pause;Minimize;
+

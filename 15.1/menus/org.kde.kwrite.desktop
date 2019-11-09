@@ -1,0 +1,16 @@
+[Desktop Entry]
+GenericName=Simple Text Editor
+GenericName[de]=Einfacher Texteditor
+GenericName[fr]=Éditeur de texte simple
+Name=KWrite
+MimeType=text/plain;
+Exec=kwrite %U
+StartupNotify=true
+Icon=kwrite
+X-DocPath=kwrite/index.html
+Type=Application
+Terminal=false
+InitialPreference=8
+X-DBUS-StartupType=Multi
+X-DBUS-ServiceName=org.kde.kwrite
+Categories=Qt;KDE;Utility;TextEditor;

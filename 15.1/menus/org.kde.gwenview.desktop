@@ -1,0 +1,18 @@
+[Desktop Entry]
+GenericName=Image Viewer
+GenericName[de]=Bildbetrachter
+GenericName[fr]=Visionneur d'images
+Name=Gwenview
+Exec=gwenview %U
+Terminal=false
+Icon=gwenview
+Type=Application
+Categories=Graphics;RasterGraphics;Viewer;KDE;
+MimeType=inode/directory;image/gif;image/jpeg;image/png;image/bmp;image/x-eps;image/x-icns;image/x-ico;image/x-portable-bitmap;image/x-portable-graymap;image/x-portable-pixmap;image/x-xbitmap;image/x-xpixmap;image/tiff;image/x-psd;image/x-webp;image/webp;image/x-tga;
+X-DocPath=gwenview/index.html
+# InitialPreference should be greater than Okular so that Gwenview is the
+# primary application associated with images, but less than Konqueror or Dolphin
+# so that Gwenview is not the primary applications for folders.
+InitialPreference=8
+X-DBUS-ServiceName=org.kde.gwenview
+

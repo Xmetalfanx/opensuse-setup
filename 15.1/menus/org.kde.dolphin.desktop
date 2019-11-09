@@ -1,0 +1,15 @@
+[Desktop Entry]
+GenericName=File Manager
+GenericName[de]=Dateiverwaltung
+GenericName[fr]=Gestionnaire de fichiers
+Name=Dolphin
+Exec=dolphin %u
+Icon=system-file-manager
+Type=Application
+X-DocPath=dolphin/index.html
+Categories=Qt;KDE;Utility;
+Terminal=false
+MimeType=inode/directory;
+InitialPreference=10
+X-DBUS-ServiceName=org.kde.dolphin
+

@@ -1,0 +1,25 @@
+# /root/.bashrc
+
+# Alias
+export LS_OPTIONS='--color=auto'
+eval "$(dircolors)"
+alias ls='ls $LS_OPTIONS'
+alias ll='ls $LS_OPTIONS -l'
+alias l='ls $LS_OPTIONS -lA'
+alias rm='rm -i'
+alias cp='cp -i'
+alias mv='mv -i'
+alias ..='cd ..'
+alias ...='cd ../..'
+alias vi='vim'
+
+# PS1
+RED='\[\033[0;33m\]'
+WHITE='\[\033[1;37m\]'
+NC='\[\033[0m\]'
+PS1="$RED[$WHITE\u$NC@$WHITE\h$NC:$WHITE\W$RED] #$NC "
+
+# Vim 
+EDITOR=vim
+VISUAL=$EDITOR
+export EDITOR VISUAL

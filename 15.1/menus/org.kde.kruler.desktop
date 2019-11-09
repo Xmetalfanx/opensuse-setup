@@ -1,0 +1,13 @@
+[Desktop Entry]
+GenericName=Screen Ruler
+GenericName[de]=Bildschirmlineal
+GenericName[fr]=Règle d'écran
+Name=KRuler
+X-DocPath=kruler/index.html
+Exec=kruler
+Type=Application
+Icon=kruler
+Terminal=false
+StartupNotify=true
+Categories=Graphics;
+

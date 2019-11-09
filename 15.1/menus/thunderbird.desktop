@@ -1,0 +1,15 @@
+[Desktop Entry]
+GenericName=Electronic Mail
+GenericName[de]=Elektronische Post
+GenericName[fr]=Courrier électronique
+Name=Mozilla Thunderbird
+Categories=Network;Email;GTK;
+Encoding=UTF-8
+TryExec=thunderbird
+Exec=thunderbird %u
+Icon=thunderbird
+Terminal=false
+Type=Application
+StartupNotify=true
+MimeType=x-scheme-handler/mailto;
+

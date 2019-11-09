@@ -1,0 +1,26 @@
+# Useless packages
+akregator
+discover
+dragonplayer
+hugin
+kaddressbook
+kcm_tablet
+kgpg
+kleopatra
+kmag
+kmahjongg
+kmail
+kmines
+kmousetool
+knotes
+kompare
+kontact
+konversation
+korganizer
+kpat
+kreversi
+ksudoku
+plasma5-pk-updates
+skanlite
+tigervnc
+

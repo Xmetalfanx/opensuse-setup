@@ -1,0 +1,13 @@
+[Desktop Entry]
+GenericName=Audio CD Ripper
+GenericName[de]=Audio-CD-Ripper
+GenericName[fr]=Extracteur de CD audio
+Name=Asunder
+Exec=asunder
+Terminal=false
+StartupNotify=true
+Type=Application
+Categories=AudioVideo;AudioVideoEditing;
+Icon=asunder
+MimeType=x-content/audio-cdda;
+
