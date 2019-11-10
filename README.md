@@ -1,4 +1,4 @@
-# Setup script for OpenSUSE Leap KDE
+# Post-installation setup script for OpenSUSE Leap KDE
 
 (c) Niki Kovacs 2019 
 
@@ -48,66 +48,47 @@ operations:
 The `opensuse-setup.sh` script performs all of these operations.
 
 Configure Bash and Vim:
-
 ```
 # ./opensuse-setup.sh --shell
 ```
-
 Setup official and third-party repositories:
-
 ```
 # ./opensuse-setup.sh --repos
 ```
-
 Remove unneeded applications:
-
 ```
 # ./opensuse-setup.sh --prune
 ```
-
 Install additional applications:
-
 ```
 # ./opensuse-setup.sh --extra
 ```
-
 Install Microsoft and Apple fonts:
-
 ```
 # ./opensuse-setup.sh --fonts
 ```
-
 Configure custom menu entries:
-
 ```
 # ./opensuse-setup.sh --menus
 ```
-
 Install custom KDE profile:
-
 ```
 # ./opensuse-setup.sh --kderc
 ```
 Apply custom KDE profile for existing users:
-
 ```
 # ./opensuse-setup.sh --users
 ```
 Perform all of the above in one go:
-
 ```
 # ./opensuse-setup.sh --magic
 ```
-
 Display help message:
-
 ```
 # ./opensuse-setup.sh --help
 ```
-
 If you want to know what exactly goes on under the hood, open a second terminal
 and view the logs:
-
 ```
 $ tail -f /tmp/opensuse-setup.log
 ```
