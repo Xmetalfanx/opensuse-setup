@@ -23,6 +23,8 @@ Perform the following steps.
 
   7. Grab a cup of coffee while the script does all the work.
 
+  8. Log out and log back in.
+
 # Customizing a Linux desktop
 
 Turning a vanilla Linux installation into a full-blown desktop with bells and
