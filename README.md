@@ -13,13 +13,15 @@ Perform the following steps.
 
   2. Open a terminal (Konsole) as root (`su -`).
 
-  3. Grab the script: `git clone https://github.com/kikinovak/opensuse-setup`
+  3. Install Git: `zypper install --no-recommends git`
 
-  4. Change into the new directory: `cd opensuse-setup`
+  4. Grab the script: `git clone https://github.com/kikinovak/opensuse-setup`
 
-  5. Run the script: `./opensuse-setup --magic`
+  5. Change into the new directory: `cd opensuse-setup`
 
-  6. Grab a cup of coffee while the script does all the work.
+  6. Run the script: `./opensuse-setup --magic`
+
+  7. Grab a cup of coffee while the script does all the work.
 
 # Customizing a Linux desktop
 
